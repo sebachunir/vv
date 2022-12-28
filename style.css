@@ -1,0 +1,31 @@
+.fondo{
+    background-image: url(https://img.freepik.com/foto-gratis/primer-plano-pluma-sobre-investigacion-mercado_1098-3465.jpg?w=740&t=st=1671864848~exp=1671865448~hmac=32dcf4873c766727af916b2b8dcbd1727bccd512ecbe6c50e45e99a7d2ecdf67);
+    background-size: cover;
+
+    
+
+  }
+
+  .btn-bd-primary {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-violet);
+    --bs-btn-border-color: var(--bd-violet);
+    --bs-btn-border-radius: .5rem;
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
+    --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
+    --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
+  }
+
+  .alinear {
+
+    width: 80px;
+    height: 80px;
+  }
+    .conteiner {
+      flex-direction: column;
+    }
